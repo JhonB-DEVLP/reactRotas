@@ -1,0 +1,98 @@
+/* Importe as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Adicione regras de estilo ao seu arquivo Home.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #336699;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+* {
+  font-family: 'RalewaySSS', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 35px;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.links li {
+  display: inline-block;
+  margin-left: 10px; /* Adiciona espaçamento entre os links */
+  text-decoration: none;
+}
+
+.links li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.imagem{
+  position: fixed;
+} /* Define a altura mínima da página como 100% da altura da janela de visualização */
+
+.img {
+  height: 500px;
+  width: 450px;
+  padding-left: 150px;
+  padding-top: 120px;
+  position: relative;
+}
+/* Sobre */
+/* Sobre */
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.sobre {
+position: fixed;
+padding: auto;
+text-transform: uppercase;
+}
+
+.sobre__content{
+  margin: 0 auto;
+  width: 1600px;
+  height: 1600px;  
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.box2{
+  width: 100%;
+  margin-top: 130px;
+}
+
+.sobre__descricao{
+  width: 600px;
+}
+
+.content-container{
+  width: 100%;
+  height: 100vh;
+}
+
+.box1{
+  position: relative;
+  left: 0;
+  top: 0;
+}
